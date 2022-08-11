@@ -1,6 +1,3 @@
-// Copyright 2022 Ignacy Radliński (@radlinskii)
-// SPDX-License-Identifier: GPL-2.0-or-later
-
 #include QMK_KEYBOARD_H
 
 #include "light_layers.h"
