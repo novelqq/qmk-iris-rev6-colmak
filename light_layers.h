@@ -76,8 +76,8 @@ const rgblight_segment_t PROGMEM SYM_LIGHT_LAYER[] = RGBLIGHT_LAYER_SEGMENTS(
     {24, 1,HSV_AZURE},
     {25, 1,HSV_GREEN}, // TT(_NUM_SYM)
     {26, 2,HSV_AZURE},
-    {28, 3,HSV_AZURE}, // underglow
-    {31, 3,HSV_AZURE}, // underglow
+    {28, 3,HSV_WHITE}, // underglow
+    {31, 3,HSV_WHITE}, // underglow
     // right side
     {34, 6, HSV_AZURE},
     {40, 6, HSV_AZURE},
@@ -97,10 +97,10 @@ const rgblight_segment_t PROGMEM NAV_LIGHT_LAYER[] = RGBLIGHT_LAYER_SEGMENTS(
     {12, 6,	HSV_TEAL},
     {18, 6,	HSV_TEAL},
     {24, 1,	HSV_TEAL},
-    {25, 1,	HSV_TEAL}, // TT(_NUM_SYM)
+    {25, 1,	HSV_GREEN}, // TT(_NUM_SYM)
     {26, 2,	HSV_TEAL},
-    {28, 3,	HSV_TEAL}, // underglow
-    {31, 3,	HSV_TEAL}, // underglow
+    {28, 3,	HSV_WHITE}, // underglow
+    {31, 3,	HSV_WHITE}, // underglow
     // right side
     {34, 6, 	HSV_TEAL},
     {40, 6, 	HSV_TEAL},
@@ -149,8 +149,8 @@ const rgblight_segment_t PROGMEM MISC_LIGHT_LAYER[] = RGBLIGHT_LAYER_SEGMENTS(
     {24, 1,	HSV_CORAL},
     {25, 1,	HSV_CORAL}, // TT(_NUM_SYM)
     {26, 2,	HSV_CORAL},
-    {28, 3,	HSV_CORAL}, // underglow
-    {31, 3,	HSV_CORAL}, // underglow
+    {28, 3,	HSV_WHITE}, // underglow
+    {31, 3,	HSV_WHITE}, // underglow
     // right side
     {34, 6, 	HSV_CORAL},
     {40, 6, 	HSV_CORAL},
